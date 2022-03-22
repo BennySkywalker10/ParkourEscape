@@ -26,6 +26,6 @@ public class SwipeTest : MonoBehaviour
         }
         desiredPosition.y = player.transform.position.y;
         //Debug.Log("desiredPosition="+desiredPosition+" position="+ player.transform.position);
-        player.transform.position = Vector2.MoveTowards(player.transform.position, desiredPosition, 15f * Time.deltaTime);
+        player.transform.position = Vector2.MoveTowards(player.transform.position, desiredPosition, 30f * Time.deltaTime);
     }
 }
