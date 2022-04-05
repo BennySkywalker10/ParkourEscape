@@ -561,6 +561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 305e4f8458323194f8939ca9424cbe2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ads: {fileID: 1468234244}
   pauseMenu: {fileID: 955729322}
 --- !u!1 &465293294
 GameObject:
@@ -1061,6 +1062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 305e4f8458323194f8939ca9424cbe2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ads: {fileID: 0}
   pauseMenu: {fileID: 0}
 --- !u!4 &692631084
 Transform:
@@ -1549,7 +1551,7 @@ GameObject:
   - component: {fileID: 991677871}
   m_Layer: 6
   m_Name: Ground (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1930,9 +1932,9 @@ GameObject:
   - component: {fileID: 1468234241}
   - component: {fileID: 1468234240}
   - component: {fileID: 1468234239}
-  - component: {fileID: 1468234238}
   - component: {fileID: 1468234243}
   - component: {fileID: 1468234237}
+  - component: {fileID: 1468234244}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1953,28 +1955,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1468234239}
---- !u!114 &1468234238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1468234236}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b0a6fcdc9dde3a47a09249b1f93b0e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 20
-  jumpPower: 12
-  extraJumps: 1
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  rb: {fileID: 1468234239}
-  feet: {fileID: 1719244494}
-  dashDistance: 2
-  dashSpeed: 10
 --- !u!50 &1468234239
 Rigidbody2D:
   serializedVersion: 4
@@ -1991,7 +1971,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 3
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 5810c84323729ca43ba260a069898dae, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
@@ -2005,7 +1985,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1468234236}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 5810c84323729ca43ba260a069898dae, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2102,6 +2082,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swipeControls: {fileID: 1468234237}
   player: {fileID: 1468234242}
+--- !u!114 &1468234244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468234236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c66950bda896f446945f6f535782929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1711275285
 GameObject:
   m_ObjectHideFlags: 0
@@ -2308,7 +2300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverText: {fileID: 0}
   gameOver: 0
-  scrollSpeed: -10
+  scrollSpeed: -20
   scoreText: {fileID: 0}
 --- !u!4 &1758837955
 Transform:
@@ -2501,7 +2493,7 @@ GameObject:
   - component: {fileID: 2102606464}
   m_Layer: 6
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -50,20 +50,23 @@
      <Compile Include="Assets\Charactercontroller.cs" />
      <Compile Include="Assets\ScrollingObject.cs" />
      <Compile Include="Assets\GroundRepeat.cs" />
+     <Compile Include="Assets\MenuScripts\MainMenuBehaviour.cs" />
      <Compile Include="Assets\TouchScripts\Utils.cs" />
      <Compile Include="Assets\MobileControlTesterScripts\MobileControls.cs" />
+     <Compile Include="Assets\Obstacle.cs" />
+     <Compile Include="Assets\DestroyOnTrigger.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
      <Compile Include="Assets\GameControl.cs" />
      <Compile Include="Assets\TouchScripts\SwipeDetection.cs" />
+     <Compile Include="Assets\Ads.cs" />
      <Compile Include="Assets\RepeatingBackground.cs" />
+     <Compile Include="Assets\DestroyPlayer.cs" />
      <Compile Include="Assets\TouchScripts\TouchControls.cs" />
+     <Compile Include="Assets\MenuScripts\PauseScreenBehaviour.cs" />
      <Compile Include="Assets\MobileControlTesterScripts\SwipeTest.cs" />
      <Compile Include="Assets\TouchScripts\InputManager.cs" />
-     <Compile Include="Assets\Obstacle.cs" />
-     <Compile Include="Assets\DestroyOnTrigger.cs" />
-     <Compile Include="Assets\DestroyPlayer.cs" />
-     <Compile Include="Assets\MenuScripts\PauseScreenBehaviour.cs" />
-     <Compile Include="Assets\MenuScripts\MainMenuBehaviour.cs" />
+     <Compile Include="Assets\Bounce.cs" />
+     <Compile Include="Assets\AddExplosionForceExt.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -661,6 +664,9 @@
  <Reference Include="Unity.TextMeshPro">
  <HintPath>D:/MobileGameDevelopment/ParkourEscapeGitHub/Parkour Escape/ParkourEscape/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>D:/MobileGameDevelopment/ParkourEscapeGitHub/Parkour Escape/ParkourEscape/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.2D.IK.Editor">
  <HintPath>D:/MobileGameDevelopment/ParkourEscapeGitHub/Parkour Escape/ParkourEscape/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
  </Reference>
@@ -712,6 +718,9 @@
  <Reference Include="Unity.Mathematics.Editor">
  <HintPath>D:/MobileGameDevelopment/ParkourEscapeGitHub/Parkour Escape/ParkourEscape/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.Monetization">
+ <HintPath>D:/MobileGameDevelopment/ParkourEscapeGitHub/Parkour Escape/ParkourEscape/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.2D.Common.Runtime">
  <HintPath>D:/MobileGameDevelopment/ParkourEscapeGitHub/Parkour Escape/ParkourEscape/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
  </Reference>
@@ -720,6 +729,9 @@
  </Reference>
  <Reference Include="Unity.2D.Common.Editor">
  <HintPath>D:/MobileGameDevelopment/ParkourEscapeGitHub/Parkour Escape/ParkourEscape/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>D:/MobileGameDevelopment/ParkourEscapeGitHub/Parkour Escape/ParkourEscape/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.SpriteShape.Runtime">
  <HintPath>D:/MobileGameDevelopment/ParkourEscapeGitHub/Parkour Escape/ParkourEscape/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>

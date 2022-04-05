@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement; // SceneManager
 public class PauseScreenBehaviour : MainMenuBehaviour
 {
+    public Ads ads;
     public static bool paused;
     [Tooltip("Reference to the pause menu object to turn on/off")]
     public GameObject pauseMenu;
@@ -12,6 +13,7 @@ public class PauseScreenBehaviour : MainMenuBehaviour
     /// </summary>
     public void Restart()
     {
+        ads.ShowInterstitialAd();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     /// <summary>

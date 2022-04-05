@@ -7,6 +7,7 @@ public class MobileControls : MonoBehaviour
     private bool tap, swipeLeft, swipeRight;
     private bool isDragging = false;
     private Vector2 startTouch, swipeDelta;
+    
 
     [SerializeField] Rigidbody2D rb;
 
@@ -91,6 +92,10 @@ public class MobileControls : MonoBehaviour
 
             //}
         }
+    }
+
+    void FixedUpdate ()
+    { 
     }
 
     private void Reset()

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class DestroyPlayer : MonoBehaviour
 {
     void OnCollisionEnter2D(Collision2D collision)
@@ -11,6 +12,7 @@ public class DestroyPlayer : MonoBehaviour
         {
             Destroy(collision.gameObject);
             SceneManager.LoadScene("MainLevel");
+            
         }
     }
 }
