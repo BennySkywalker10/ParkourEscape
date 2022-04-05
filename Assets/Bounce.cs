@@ -14,7 +14,7 @@ public class Bounce : MonoBehaviour
         if (collision.transform.tag == playerTag)
         {
             Rigidbody2D otherRB = collision.rigidbody;
-            //otherRB.AddExplosionForce(bounceforce, collision.contacts[0].point, bounceRadius);
+            otherRB.AddExplosionForce(bounceforce, collision.contacts[0].point, bounceRadius);
             //otherRB.AddExplosionForce(bounceforce, this.transform.position, 5);
 
         }

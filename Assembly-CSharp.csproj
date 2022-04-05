@@ -54,6 +54,7 @@
      <Compile Include="Assets\TouchScripts\Utils.cs" />
      <Compile Include="Assets\MobileControlTesterScripts\MobileControls.cs" />
      <Compile Include="Assets\Obstacle.cs" />
+     <Compile Include="Assets\Bounce.cs" />
      <Compile Include="Assets\DestroyOnTrigger.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
      <Compile Include="Assets\GameControl.cs" />
@@ -63,10 +64,10 @@
      <Compile Include="Assets\DestroyPlayer.cs" />
      <Compile Include="Assets\TouchScripts\TouchControls.cs" />
      <Compile Include="Assets\MenuScripts\PauseScreenBehaviour.cs" />
+     <Compile Include="Assets\RigidBody2DExt.cs" />
      <Compile Include="Assets\MobileControlTesterScripts\SwipeTest.cs" />
      <Compile Include="Assets\TouchScripts\InputManager.cs" />
-     <Compile Include="Assets\Bounce.cs" />
-     <Compile Include="Assets\AddExplosionForceExt.cs" />
+     <Compile Include="Assets\ProjectileSpawner.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
